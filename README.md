@@ -8,4 +8,7 @@ A slight variant can be applied to the genetic algorithm to transform it into a 
 
 In this case, the evaluation function is the sum of the differences between each row, column and main diagonal to 65. Ideally, the sum of the differences should be 0.
 
-Running experiments it can be seen that simply switching from a purely genetic algorithm to a memetic one, the performance increases drastically, as seen in the images below. Using a purely genetic algorithm no solution was found on 100 iterations. However, with the memetic algorithm had a success rate of 91%, defined as the number of generations in which a solution was found.
+Running experiments it can be seen that simply switching from a purely genetic algorithm (left) to a memetic one (right), the performance increases drastically, as seen in the images below. Using a purely genetic algorithm no solution was found on 100 iterations. However, with the memetic algorithm had a success rate of 91%, defined as the number of generations in which a solution was found.
+
+
+<img src="pure_genetic.png" width="400" /> <img src="memetic.png" width="400" />
